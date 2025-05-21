@@ -14,4 +14,8 @@ public class Account {
     public double getWithdrawals() {
         return withdrawals;
     }
+
+    public double getAccountBalance() {
+        return deposits - withdrawals;
+    }
 }
